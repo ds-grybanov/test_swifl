@@ -1,0 +1,36 @@
+@import "./variables";
+
+@mixin openSans-SB {
+  font-family: $font_os-sb;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+@mixin openSans-B {
+  font-family: $font_os-b;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+@mixin openSans-R {
+  font-family: $font_os-r;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@mixin montserrat-R {
+  font-family: $font_mont-r;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+@mixin montserrat-SB {
+  font-family: $font_mont-sb;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+}
